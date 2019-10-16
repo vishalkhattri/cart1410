@@ -1,0 +1,262 @@
+    1  pwd
+    2  sudo apt-get -y install docker
+    3  sudo systemctl start docker
+    4  sudo systemctl enable docker
+    5  sudo systemctl docker status
+    6  sudo systemctl status docker
+    7  cat /etc/group
+    8  who ami
+    9  who am 
+   10  whoami
+   11  sudo usermod -a -G docker ubunti
+   12  sudo usermod -a -G docker ubuntu
+   13  id -a
+   14  docker info
+   15  docker pull httpd:2.4
+   16  docker images
+   17  docker rmi c62438d19947 da010bd3ab94 2e9dc504facb 8268ac94424a 7cd8ce2d0aa9
+   18  docker images
+   19  docker run -d --name viscont -p 9000:80 httpd:2.4
+   20  docker ps
+   21  docker ps -a
+   22  curl http://localhost:9000
+   23  docker stats vishcont
+   24  docker stats viscont
+   25  docker inspect viscont
+   26  docker ps
+   27  cd /proc
+   28  ls -l
+   29  sudo bash
+   30  history
+   31  docker stop viscont
+   32  docker ps
+   33  docker ps -a
+   34  docker start viscont
+   35  docker ps
+   36  docker exec viscont cat /etc/hosts
+   37  docker exec -it viscont /bin/bash
+   38  git clone https://github.com/vishalkhattri?tab=repositories
+   39  git clone https://github.com/vishalkhattri/cart1410.git
+   40  git clone https://github.com/vishalkhattri/cart1410.git
+   41  curl http://localhost:9000
+   42  git clone https://github.com/vishalkhattri/cart1410.git
+   43  bash
+   44  history
+   45  curl http://localhost:9000
+   46  docker viscont start
+   47  docker start viscont
+   48  docker ps
+   49  curl http://localhost:9000
+   50  docker build -t vishalkhattri/cart-vish:1.0 cart1410/api
+   51  docker build -t vishalkhattri/cart-vish:1.0 cart1410/api
+   52  docker build -t vishalkhattri/cart-vish:1.0 cart1410/api
+   53  docker build -t vishalkhattri/cart-vish:1.0 cart1410/api
+   54  docker build -t vishalkhattri/cart-vish:1.0 cart1410/api
+   55  docker -ps
+   56  ls -l
+   57  docker image
+   58  docker -mage
+   59  docker -image
+   60  docker run -d --name viscont09 -p 9001:80 vishalkhattri/cart-vish:1.0
+   61  docker ps
+   62  docker ps
+   63  docker start vishcont09
+   64  docker ps
+   65  curl http://localhost:9001
+   66  docker ps -a
+   67  docker logs viscont09
+   68  docker rm viscont09
+   69  docker run -d --name viscont09 -p 9001:80 vishalkhattri/cart-vish:1.0
+   70  docker ps -a
+   71  docker logs viscont09
+   72  ocker run -d --name viscont09 -p 9001:80 vishalkhattri/cart-vish:1.0
+   73  docker rm viscont09
+   74  docker build -t vishalkhattri/cart-vish:1.0 cart1410/api
+   75  docker run -d --name viscont09 -p 9001:80 vishalkhattri/cart-vish:1.0
+   76  docker ps
+   77  docker ps -a
+   78  docker logs viscont09
+   79  docker build -t vishalkhattri/cart-vish:1.0 cart1410/api --no-cache
+   80  docker build -t vishalkhattri/cart-vish:1.0 cart1410/api --no-cache
+   81  docker ps -a
+   82  docker history vishalkhattri/cart-vish:1.0
+   83  docker rm viscont09
+   84  docker run -d --name viscont09 -p 9001:80 vishalkhattri/cart-vish:1.0
+   85  docker ps
+   86  docker ps -a
+   87  docker start viscont09
+   88  docker ps -a
+   89  docker logs viscont09
+   90  docker build -t vishalkhattri/cart-vish:1.0 cart1410/api --no-cache
+   91  docker imAGES
+   92  docker images
+   93  docker run -dit --name viscont09 -p 9001:80 vishalkhattri/cart-vish:1.0 /bin/bash
+   94  docker ps -a
+   95  docker rm viscont09
+   96  docker build -t vishalkhattri/cart-vish:1.0 cart1410/api --no-cache
+   97  docker build -t vishalkhattri/cart-vish:1.0 cart1410/api 
+   98  docker ps -a
+   99  docker stop viscont
+  100  docker -ps -a
+  101  docker ps -a
+  102  docker rm vis*
+  103  docker rm viscont
+  104  docker build -t vishalkhattri/cart-vish:1.0 cart1410/api
+  105  docker build -t vishalkhattri/cart-vish:1.0 cart1410/api
+  106  docker run -d --name viscont09 -p 9001:80 vishalkhattri/cart-vish:1.0
+  107  docker ps -a
+  108  curl http://localhost:9001
+  109  docker hostory
+  110  docker history
+  111  docker history viscont09
+  112  docker history vishalkhattri/cart-vish:1.0
+  113  docker images
+  114  docker inspect 3962eb3202bb
+  115  diff 3962eb3202bb b84dd31483bd
+  116  git clone https://github.com/mohanraz81/myapp1808.git
+  117  docker build -t vishalkhattri/cart-vish:2.0 cart1410/api
+  118  docker ps -a
+  119  docker stop viscont09
+  120  docker rm viscont09
+  121  docker ps -a
+  122  docker run -d --name viscont09 -p 9001:80 vishalkhattri/cart-vish:2.0
+  123  docker ps -a
+  124  curl http://localhost:9001
+  125  docker ps 
+  126  docker stop viscont09
+  127  docker rm viscont09
+  128  docker -ps -a
+  129  docker ps -a
+  130  docker run -d --name viscont09 -p 9001:80 -v viscont09-logs:/var/log -v /home/ubuntu:/home/ubuntu vishalkhattri/cart-vish:2.0
+  131  docker -ps - a
+  132  docker ps - a
+  133  docker ps -a
+  134  docker ps
+  135  docker exec -it viscont09 /bin/bash
+  136  docker inspect viscont09
+  137  cd /var/lib/docker/volumes/viscont09-logs/_data/
+  138  sl 
+  139  ls
+  140  tail httpd/access_log 
+  141  tail -f httpd/access_log 
+  142  sudo bash
+  143  rm -rf ~/.aws
+  144  aws sts get-caller-identity 
+  145  docker build -t vishalkhattri/cart-felogs:1.0 cart1410/myappfrontendlogs/
+  146  docker iamges
+  147  docker images
+  148  docker run -d --name cart-fe-logs -v cart-fe-test-logs:/mnt/log:ro vishalkhattri/cart-felogs
+  149  docker ps
+  150  docker network ls
+  151  docker network create --driver bridge --subnet 10.1.0.0/16 --gatway 10.1.0.1 testnw
+  152  docker network create --driver bridge --subnet 10.1.0.0/16 --gatway 10.1.0.1 testnw
+  153  docker network create --driver bridge --subnet 10.1.0.0/16 --getway 10.1.0.1 testnw
+  154  docker network create --driver bridge --subnet 10.1.0.0/16 --gateway 10.1.0.1 testnw
+  155  docker network ls
+  156  docker run -d --name myapp-fe 9002:80 --net testnw vishalkhattri/cart-felog
+  157  docker run -d --name myapp-fe 9003:80 --net testnw vishalkhattri/cart-felog
+  158  docker images
+  159  docker run -d --name cart-fe-test -p 9001:80 -v cart-fe-test-logs:/var/log -v /home/ubuntu:/home/ubuntu mohanraz81/cart-fe:2.0
+  160  docker images
+  161  docker 
+  162  docker images
+  163  docker history vishalkhattri/cart-vish
+  164  docker run -d --name vishcont10-logs -v viscont09-log:/mnt/log:ro vishalkhattri/cart-vish:1.0
+  165  docker -images
+  166  docker images
+  167  docker -ps
+  168  docker ps
+  169  history
+  170  docker rm vishcont10-logs
+  171  docker stop vishcont10-logs
+  172  docker rm vishcont10-logs
+  173  docker build -t vishalkhattri/cart-felogs:1.0 cart1410/myappfrontendlogs/
+  174  docker images
+  175  docker ps
+  176  docker build -t vishalkhattri/vis-felogs:1.0 cart1410/myappfrontendlogs/
+  177  dockr images
+  178  docker images
+  179  docker rm vishalkhattri/cart-felogs
+  180  docker rm 898da560cdca
+  181  docker rmi 898da560cdca
+  182  dcoker ps -a
+  183  docker ps -a
+  184  docker run -d --name viscont10logs -v viscont09-logs:/mnt/log:ro vishalkhattri/vis-felogs:1.0
+  185  docker ps -a
+  186  docker login
+  187  docker images
+  188  docker tag vishalkhattri/cart-vish vishalkhattri/cart-fe:latest
+  189  docker tag vishalkhattri/cart-vish:2.0 vishalkhattri/cart-fe:latest
+  190  docker push vishalkhattri/cart-fe
+  191  docker images
+  192  docker push vishalkhattri/cart-vish
+  193  git clone https://github.com/mohanraz81/kube_install_kops.git
+  194  cd kube_install_kops/
+  195  ./create_cluster.sh student6.courseandlabs.com ec2-access-role
+  196  kubectl get nodes
+  197  kubectl describe node ip-172-20-103-106.ec2.internal
+  198  kubectl get events
+  199  kubectl get namespaces
+  200  kubectl get pods --name
+  201  kubectl get pods --namespace kube-system
+  202  cd .. /cart1410/
+  203  cd ../cart1410/
+  204  kubectl apply -f namespace/namespacedeploy.yaml
+  205  kubectl describe namespaces mycart
+  206  docker -images
+  207  docker images
+  208  cd ../kube_install_kops/
+  209  kubectl apply -f metricserver.yaml 
+  210  cd ../cart1410/
+  211  kubectl apply -f deploy/frontend/
+  212  kubectl get all -n mycart
+  213  kubectl get pods -n mycart
+  214  kubectl decribe pod po/myacart-frontend-6fff9db857-sch6m -n mycart
+  215  kubectl describe pod po/myacart-frontend-6fff9db857-sch6m -n mycart
+  216  kubectl describe pod po/myacart-frontend-6fff9db857-sch6m -n mycart
+  217  kubectl describe po/myacart-frontend-6fff9db857-sch6m -n mycart
+  218  kubectl get hpa -n mycart
+  219  kubectl describe hpa -n mycart
+  220  kubectl describeservice api -n mycart
+  221  kubectl describe service api -n mycart
+  222  kubectl apply -f deploy/frontend/
+  223  while true; do wget -q -O- http://a33f22255eff911e9b0200280783f2f8-1894584031.us-east-1.elb.amazonaws.com; done
+  224  while true; do wget -q -O- http://a33f22255eff911e9b0200280783f2f8-1894584031.us-east-1.elb.amazonaws.com; done
+  225  kubectl rollout history deployement.v1beta1.apps/myacart-frontend -n myacrt
+  226  kubectl rollout history deployment.v1beta1.apps/myacart-frontend -n mycart
+  227  kubectl rollout undo history deployment.v1beta1.apps/myacart-frontend -n mycart
+  228  kubectl rollout undo deployment.v1beta1.apps/myacart-frontend -n mycart
+  229  kubectl rollout history deployment.v1beta1.apps/myacart-frontend -n mycart
+  230  kubectl rollout undo deployment.v1beta1.apps/myacart-frontend -n mycart
+  231  kubectl rollout history deployment.v1beta1.apps/myacart-frontend -n mycart
+  232  kubectl apply - f deploy/database/
+  233  kubectl apply -f deploy/database/
+  234  kubectl get pod
+  235  kubectl get pod -n mycart
+  236  kubectl apply -f deploy/database/
+  237  kubectl get pod -n mycart
+  238  kubectl get pods -n mycart
+  239  kubectl get pods -n mycart
+  240  kubectl get pods -n mycart
+  241  kubectl get pods -n mycart
+  242  kubectl get pods -n mycart
+  243  kubectl get pods -n mycart
+  244  kubectl get pods -n mycart
+  245  kubectl get pods -n mycart
+  246  kubectl get pods -n mycart
+  247  kubectl get pods -n mycart
+  248  kubectl get pods -n mycart
+  249  kubectl get pods -n mycart
+  250  kubectl delete statefulstate mysql -n mycart
+  251  kubectl delete statefullstate mysql -n mycart
+  252  kubectl delete statefulset mysql -n mycart
+  253  kubectl delete statefullset mysql -n mycart
+  254  kubectl delete statefulset mysql -n mycart
+  255  git add *
+  256  git commit -m "kubernetes"
+  257  git push
+  258  cd ..
+  259  git add *
+  260  git commit -m "kubernetes"
+  261  git push
+  262  history > commands.txt
